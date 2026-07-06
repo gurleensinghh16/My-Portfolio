@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    height: 50px;
+    background-image: linear-gradient(to right,rgb(164, 237, 164),rgb(157, 157, 201),rgb(218, 67, 218));
+    font-size: 20px;
+    border-bottom: 2px solid black;
+}
+.nav ul{
+    display: flex;
+    gap:100px ;
+    justify-content:space-between;
+}
+.logo{
+    margin-right: 100px;
+    font-family:"Style Script", cursive;
+    font-size: 27px;
+    margin-right: 200px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 280px;
+    height: 75vh;
+    background-image: linear-gradient(to right,rgb(234, 200, 138),rgb(215, 119, 215),rgb(130, 224, 130));
+}
+.one{
+    font-size: 45px;
+}
+.two{
+    font-size: 35px;
+}
+.hero-left{
+    font-size: 20px;
+    height: 20vh;
+    width: 20vw;
+}
+.image{
+    height: 35vh;
+    width: 29vw;
+    border: 3px solid black;
+    border-radius: 50px;
+    transition: all 0.6s;
+}
+.image:hover{
+    transform: scale(0.5);
+}
+.btn{
+    font-size: 20px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to right,rgb(107, 107, 214),rgb(196, 107, 196));
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 7px 9px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.btn:hover{
+    background-image: linear-gradient(to right,rgb(58, 58, 173),rgb(140, 28, 140));
+    border-radius: 10px;
+    transform: scale(1.2);
+}
+.btn-container{
+    margin-top: 10px;
+    width: 50vw;
+}
+.project{
+    display: flex;
+    align-items: center;
+    
+}
+.project-image{
+    height: 10vw;
+    margin: 40px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+}
