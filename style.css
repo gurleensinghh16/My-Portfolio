@@ -76,11 +76,92 @@
 .project{
     display: flex;
     align-items: center;
-    
+    gap: 50px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background-image: linear-gradient(to right,rgb(89, 211, 148),rgb(75, 156, 217),rgb(77, 211, 168));
+    height: 500px;
 }
-.project-image{
-    height: 10vw;
-    margin: 40px;
+.img-1{
+    margin: 30px;
     border: 3px solid rgb(0, 0, 0);
-    border-radius: 20px;
+    border-radius: 5px;
+    width: 70vh;
+    margin-left: 60px;
+    transition: all 0.5s;
+}
+.img-1:hover{
+    border-radius: 50px;
+    transform: scale(1.2);
+}
+.project-info{
+    width: 40vw;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.img-2{
+    margin: 60px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 70vh;
+    height: 40vh;
+    margin-left: 60px;
+    transition: all 0.5s;
+}
+.img-2:hover{
+    border-radius: 50px;
+    transform: scale(1.2);
+}
+.project-2{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background-image: linear-gradient(to right,rgb(162, 234, 129),rgb(196, 105, 72),rgb(130, 224, 130));
+    height: 500px;
+}
+.project-info2{
+    width: 40vw;
+    font-size: 24px;
+}
+.project-3{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    background-image: linear-gradient(to right,rgb(89, 211, 148),rgb(75, 156, 217),rgb(77, 211, 168));
+    height: 500px;
+}
+.project-info3{
+    width: 40vw;
+    font-size: 24px;
+}
+.img-3{
+    margin: 30px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    width: 70vh;
+    margin-left: 60px;
+    transition: all 0.5s;
+}
+.img-3:hover{
+    border-radius: 50px;
+    transform: scale(1.2);
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right,rgb(141, 141, 182),rgb(176, 124, 124));
+}
+#li{
+    font-size: 20px;
+    margin: 30px;
+}
+.copy{
+    font-size: 20px;
+    margin: 30px;
+    margin-right: 500px;
 }
